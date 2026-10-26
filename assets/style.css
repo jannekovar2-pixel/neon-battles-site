@@ -74,6 +74,18 @@ h2 {
 a { color: var(--cyan); }
 a:hover { color: #fff; }
 
+.btn {
+  display: inline-block;
+  font-family: "Russo One", system-ui, sans-serif;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 2px solid var(--pink);
+  border-radius: 999px;
+  box-shadow: 0 0 14px rgba(255, 79, 216, 0.45), inset 0 0 10px rgba(255, 79, 216, 0.25);
+}
+.btn:hover { background: rgba(255, 79, 216, 0.15); color: #fff; }
+
 .muted { color: var(--muted); }
 
 ul { padding-left: 22px; }
